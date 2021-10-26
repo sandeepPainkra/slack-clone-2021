@@ -1,0 +1,46 @@
+.sidebar {
+  min-width: 270px;
+  background-color: var(--slack-color);
+}
+.sidebar_header {
+  border-top: 1px solid rgb(82, 81, 81);
+  border-bottom: 1px solid rgb(77, 77, 77);
+  padding: 5px 8px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sidebarHeader_Info h2 {
+  font-size: 0.9rem;
+}
+.sidebar_header .editIcon {
+  padding: 7px;
+  background-color: #fff;
+  color: gray;
+  border-radius: 50%;
+}
+.sidebarHeader_Info h3 {
+  display: flex;
+  align-items: center;
+}
+.sidebarHeader_Info h3 span {
+  font-size: 0.8rem;
+}
+.sidebarHeader_Info h3 .MuiSvgIcon-root {
+  font-size: 1.2rem;
+  color: green;
+}
+.sidebar hr {
+  width: 100%;
+  height: 0.8px;
+  border: 0;
+  background-color: rgb(78, 76, 76);
+  /* margin-top: 9px; */
+}
+.sidebar_classes {
+  overflow-y: scroll;
+}
+.sidebar_classes::-webkit-scrollbar {
+  display: none;
+}

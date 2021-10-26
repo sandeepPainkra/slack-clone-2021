@@ -1,0 +1,20 @@
+.sidebarOptions {
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  cursor: pointer;
+  color: #fff;
+}
+.sidebarOptions h2 {
+  font-size: 1rem;
+  font-weight: light;
+  margin-left: 6px;
+}
+.sidebarOptions span {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-right: 6px;
+}
+.sidebarOptions:hover {
+  background-color: purple;
+}
