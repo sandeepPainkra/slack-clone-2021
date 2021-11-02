@@ -44,3 +44,6 @@
 .sidebar_classes::-webkit-scrollbar {
   display: none;
 }
+.sidebar a {
+  text-decoration: none !important;
+}

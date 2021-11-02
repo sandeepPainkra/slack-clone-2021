@@ -14,9 +14,12 @@ import {
   Apps,
 } from "@mui/icons-material";
 import db from "./firebase.js";
+import { useStateValue } from "./StateProvider";
 
 const Sidebar = () => {
+  const [{ user }, dispatch] = useStateValue();
   const [room, setRoom] = useState([]);
+  console.log(user);
 
   useEffect(() => {
     db.collection("rooms").onSnapshot((snapshot) => {
@@ -32,7 +35,7 @@ const Sidebar = () => {
     <div className="sidebar">
       <div className="sidebar_header">
         <div className="sidebarHeader_Info">
-          <h2>Web Development</h2>
+          <h2>{user.displayName}</h2>
           <h3>
             <FiberManualRecordIcon />
             <span>active</span>

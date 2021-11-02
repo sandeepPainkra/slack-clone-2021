@@ -1,0 +1,23 @@
+.login {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.login_container {
+  padding: 2.5rem 3rem;
+  box-shadow: 3px 3px 4px 3px rgb(165, 161, 161);
+  text-align: center;
+}
+.login_container h2 {
+  margin: 1rem 0;
+}
+.login_container button {
+  width: fit-content;
+  background-color: green;
+  color: #fff;
+}
+.login_container button:hover {
+  background-color: lightskyblue;
+  color: green;
+}

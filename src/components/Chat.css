@@ -1,0 +1,59 @@
+.chat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.chat_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 10px;
+  border-bottom: 1px solid lightgray;
+}
+.Chat_headerInfo {
+  display: flex;
+  align-items: center;
+}
+.Chat_headerInfo p {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-right: 8px;
+}
+.chat_headerRight {
+  display: flex;
+  align-items: center;
+}
+
+.chat_bodyAlternate {
+  flex: 1;
+  background-color: rgb(141, 73, 187);
+  color: gray;
+  display: grid;
+  place-items: center;
+}
+
+.roomMessages {
+  margin: 2rem;
+  flex: 1;
+  overflow-y: scroll;
+}
+.chatInput {
+  width: 80%;
+  border: 2px solid gray;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+.chatInput form {
+  display: flex;
+}
+.chatInput form input {
+  flex: 1;
+  font-size: 1rem;
+  padding: 5px;
+  outline: none;
+  border: 0;
+}
+.chatInput form button {
+  display: none;
+}
